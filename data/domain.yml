@@ -1,0 +1,90 @@
+%YAML 1.1
+---
+actions:
+- utter_goodbye
+- utter_pu_UGCapproval
+- utter_ask_course
+- utter_pu_details
+- utter_pu_contact
+- action_eligibility
+- utter_did_that_help
+- utter_bot
+- utter_pu_eligibility
+- utter_ask
+- utter_cheer_up
+- utter_pu_addmissiondocs
+- utter_wellcome
+- utter_agree
+- utter_greet
+- utter_pu_location
+- utter_unclear
+entities:
+- course
+intents:
+- pu_eligibility
+- mood_great
+- goodbye
+- greet
+- ask_bot
+- mood_unhappy
+- user_agree
+- mood_deny
+- pu_details
+- pu_location
+- pu_UGCapproval
+- pu_addmissiondocs
+- pu_contact
+slots:
+  course:
+    type: text
+templates:
+  utter_agree:
+  - text: Great carry on!
+  utter_ask:
+  - text: How can i Help You ?
+  - text: what can i do for you?
+  utter_ask_course:
+  - text: In which course?
+  utter_bot:
+  - text: I am fine :) !!!
+  - text: Great ;) !!!
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye,See You later !!
+  utter_greet:
+  - text: Hey !!
+  utter_pu_UGCapproval:
+  - text: Poornima university is recognized Under section 22(1) of UGC Act 1956).
+  utter_pu_addmissiondocs:
+  - text: "Documents Required:\n  10th marksheet\n  12th marksheet\n  Transfer certificate\n\
+      \  Migration Certificate\n  Domicile Certificate\n  Six Photograph\n"
+  utter_pu_contact:
+  - text: "Website :www.Poornima.edu.in Mail-ID :info@poornima.edu.in Phone-NO:+91-8875\
+      \ 666 617\n         +91-8875 666 618\n"
+  utter_pu_details:
+  - text: "Poornima University was established in Jaipur in year 2012.  Poornima University\
+      \ Provides various courses:B.tech,M.Tech,MBA,BBA,BCA,B.Com,BArch,Ph.D .\n"
+  utter_pu_eligibility:
+  - text: "B.Tech:\n  10+2 with minimum 50% (45% for “SC/ST/OBC/SBC) marks from CBSE/equivalent\
+      \ board\n  along with 45% (40% for ST/SC/OBC/SBC) marks in Mathematics and Physics\
+      \ and any \n  one of Chemistry/Computer Science/IP/Biology/Bio-technology.\n\
+      \nM.Tech:\n  BE/ BTech/ equivalent in relevant discipline from a recognized\
+      \ university\n  with 55% marks or 6.25 CGPA on 10 points scale (50% or 5.75\
+      \ CGPA on 10 points\n  scale for ST/SC/OBC/SBC).Candidates with MCA/MSc IT also\
+      \ considered.\n\nMSc:\n  10+2 (PCM) with 50% marks (45% for SC/ST/OBC/SBC) from\
+      \ CBSE/equivalent board.\n\nB.Arch:\n  10 + 2 With Maths (50 % Aggregate) from\
+      \ CBSE/equivalent board + valid NATA Score\n  as per NATA 2018 guidelines or\
+      \ valid JEE paper 2 score.\n\nBCA:\n  10+2 (any stream) of CBSE / equivalent\
+      \ board.\n"
+  utter_pu_location:
+  - text: "Poornima University is located at :Plot No. IS-2027 to 2031, Ramchandrapura,\
+      \ Sitapura Extension, Jaipur.  Sitapura is better known as the educational hub\
+      \ of Jaipur with large no of education institutions and students.  It is within\
+      \ 20 minutes drive from the heart of Jaipur city.   \n"
+  utter_unclear:
+  - text: I am not sure what you are aiming for.
+  utter_wellcome:
+  - text: Wellcome to Poornima University

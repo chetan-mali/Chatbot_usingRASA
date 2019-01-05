@@ -1,0 +1,48 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "course"
+      ]
+    },
+    "utter_pu_details": {
+      "slots": []
+    },
+    "utter_pu_location": {
+      "slots": []
+    },
+    "utter_cheer_up": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_pu_UGCapproval": {
+      "slots": []
+    },
+    "utter_pu_contact": {
+      "slots": []
+    },
+    "action_eligibility": {
+      "slots": []
+    },
+    "utter_pu_eligibility": {
+      "slots": []
+    },
+    "utter_pu_addmissiondocs": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.12.3",
+  "python": "3.6.7",
+  "max_histories": [
+    5,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ],
+  "trained_at": "20190106-030135"
+}
