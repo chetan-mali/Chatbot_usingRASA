@@ -11,4 +11,4 @@ while True:
         break
     responses = agent.handle_text(a)
     for response in responses:
-        print("<-Bot>:",response["text"])
+        print("<-Bot>:\n",response["text"],sep="",end="\n") 

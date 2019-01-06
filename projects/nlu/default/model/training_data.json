@@ -62,6 +62,10 @@
         "text": "bye"
       },
       {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
         "intent": "greet",
         "text": "hey"
       },
@@ -148,26 +152,6 @@
       {
         "intent": "greet",
         "text": "Namaste"
-      },
-      {
-        "intent": "inform",
-        "text": "What's the weather today?"
-      },
-      {
-        "intent": "inform",
-        "text": "what weather"
-      },
-      {
-        "intent": "inform",
-        "text": "weather"
-      },
-      {
-        "intent": "inform",
-        "text": "weather outside?"
-      },
-      {
-        "intent": "inform",
-        "text": "What is the weather out there?"
       },
       {
         "intent": "mood_deny",
@@ -546,6 +530,18 @@
         "text": "eligibility in B.tech"
       },
       {
+        "intent": "pu_eligibility",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Btech",
+            "entity": "course"
+          }
+        ],
+        "text": "eligibility in Btech"
+      },
+      {
         "intent": "pu_location",
         "text": "where is university located ?"
       },
@@ -626,23 +622,23 @@
         "text": "f"
       },
       {
-        "intent": "uset_agree",
+        "intent": "user_agree",
         "text": "yes"
       },
       {
-        "intent": "uset_agree",
+        "intent": "user_agree",
         "text": "indeed"
       },
       {
-        "intent": "uset_agree",
+        "intent": "user_agree",
         "text": "of course"
       },
       {
-        "intent": "uset_agree",
+        "intent": "user_agree",
         "text": "that sounds good"
       },
       {
-        "intent": "uset_agree",
+        "intent": "user_agree",
         "text": "correct"
       }
     ],

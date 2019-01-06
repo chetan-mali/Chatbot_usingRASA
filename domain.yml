@@ -18,43 +18,25 @@ actions:
 - utter_bot
 - utter_ask_course
 - utter_pu_location
-config:
-  store_entities_as_slots: true
 entities:
 - course
-forms: []
 intents:
-- pu_eligibility:
-    use_entities: true
-- goodbye:
-    use_entities: true
-- mood_great:
-    use_entities: true
-- greet:
-    use_entities: true
-- ask_bot:
-    use_entities: true
-- mood_unhappy:
-    use_entities: true
-- user_agree:
-    use_entities: true
-- mood_deny:
-    use_entities: true
-- pu_details:
-    use_entities: true
-- pu_location:
-    use_entities: true
-- pu_UGCapproval:
-    use_entities: true
-- pu_addmissiondocs:
-    use_entities: true
-- pu_contact:
-    use_entities: true
+- pu_eligibility
+- goodbye
+- mood_great
+- greet
+- ask_bot
+- mood_unhappy
+- user_agree
+- mood_deny
+- pu_details
+- pu_location
+- pu_UGCapproval
+- pu_addmissiondocs
+- pu_contact
 slots:
   course:
-    auto_fill: true
-    initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: text
 templates:
   utter_agree:
   - text: Great carry on!

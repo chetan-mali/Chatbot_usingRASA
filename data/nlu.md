@@ -16,6 +16,7 @@
 - bye
 - bye
 - bye
+- bye
 
 ## intent:greet
 - hey
@@ -40,13 +41,6 @@
 - good morning
 - good morning
 - Namaste
-
-## intent:inform
-- What's the weather today?
-- what weather
-- weather
-- weather outside?
-- What is the weather out there?
 
 ## intent:mood_deny
 - no
@@ -149,6 +143,7 @@
 - in [B.tech](course)
 - eligibility in [B.tech](course)
 - eligibility in [B.tech](course)
+- eligibility in [Btech](course)
 
 ## intent:pu_location
 - where is university located ?
@@ -174,7 +169,7 @@
 - ollrea
 - f
 
-## intent:uset_agree
+## intent:user_agree
 - yes
 - indeed
 - of course

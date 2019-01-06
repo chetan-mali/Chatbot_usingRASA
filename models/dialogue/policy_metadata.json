@@ -5,31 +5,28 @@
         "course"
       ]
     },
-    "utter_pu_details": {
-      "slots": []
-    },
-    "utter_pu_location": {
+    "utter_goodbye": {
       "slots": []
     },
     "utter_cheer_up": {
       "slots": []
     },
-    "utter_goodbye": {
-      "slots": []
-    },
-    "utter_pu_UGCapproval": {
+    "action_eligibility": {
       "slots": []
     },
     "utter_pu_contact": {
       "slots": []
     },
-    "action_eligibility": {
-      "slots": []
-    },
-    "utter_pu_eligibility": {
-      "slots": []
-    },
     "utter_pu_addmissiondocs": {
+      "slots": []
+    },
+    "utter_pu_location": {
+      "slots": []
+    },
+    "utter_pu_UGCapproval": {
+      "slots": []
+    },
+    "utter_pu_details": {
       "slots": []
     }
   },
@@ -44,5 +41,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.keras_policy.KerasPolicy"
   ],
-  "trained_at": "20190106-030135"
+  "trained_at": "20190106-213049"
 }
