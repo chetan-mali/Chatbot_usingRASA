@@ -1,0 +1,894 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "ask_bot",
+        "text": "how are you"
+      },
+      {
+        "intent": "ask_bot",
+        "text": "how is you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thanks bye"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "fine"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "Namaste"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "never"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no way"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not really"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not"
+      },
+      {
+        "intent": "mood_great",
+        "text": "perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "feeling like a king"
+      },
+      {
+        "intent": "mood_great",
+        "text": "wonderful"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am going to save the world"
+      },
+      {
+        "intent": "mood_great",
+        "text": "super"
+      },
+      {
+        "intent": "mood_great",
+        "text": "extremely good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "so so perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "so good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "so perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "i am fine"
+      },
+      {
+        "intent": "mood_great",
+        "text": "yes"
+      },
+      {
+        "intent": "mood_great",
+        "text": "i am fine"
+      },
+      {
+        "intent": "mood_great",
+        "text": "okay"
+      },
+      {
+        "intent": "mood_great",
+        "text": "yeah"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "my day was horrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I don't feel very well"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am disappointed"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "super sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I'm so sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "awful"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not so good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      },
+      {
+        "intent": "pu_Phd_parttime",
+        "text": "offered part time Ph.D"
+      },
+      {
+        "intent": "pu_Phd_parttime",
+        "text": "provide part time ph.d"
+      },
+      {
+        "intent": "pu_Phd_parttime",
+        "text": "part time Ph.D"
+      },
+      {
+        "intent": "pu_UGCapproval",
+        "text": "approved by UGC"
+      },
+      {
+        "intent": "pu_UGCapproval",
+        "text": "UGC approval"
+      },
+      {
+        "intent": "pu_UGCapproval",
+        "text": "approval"
+      },
+      {
+        "intent": "pu_UGCapproval",
+        "text": "legal"
+      },
+      {
+        "intent": "pu_UGCapproval",
+        "text": "ugc status"
+      },
+      {
+        "intent": "pu_UGCapproval",
+        "text": "approved by government"
+      },
+      {
+        "intent": "pu_UGCapproval",
+        "text": "Recognized under section"
+      },
+      {
+        "intent": "pu_addmissiondocs",
+        "text": "documents required in addmission"
+      },
+      {
+        "intent": "pu_addmissiondocs",
+        "text": "document needed to take addmission"
+      },
+      {
+        "intent": "pu_addmissiondocs",
+        "text": "document required"
+      },
+      {
+        "intent": "pu_anti_ragging",
+        "text": "anti ragging"
+      },
+      {
+        "intent": "pu_contact",
+        "text": "contact details"
+      },
+      {
+        "intent": "pu_contact",
+        "text": "phone number"
+      },
+      {
+        "intent": "pu_contact",
+        "text": "helpline number"
+      },
+      {
+        "intent": "pu_contact",
+        "text": "website"
+      },
+      {
+        "intent": "pu_contact",
+        "text": "where to contact"
+      },
+      {
+        "intent": "pu_contact",
+        "text": "call"
+      },
+      {
+        "intent": "pu_contact",
+        "text": "message"
+      },
+      {
+        "intent": "pu_contact",
+        "text": "phone number"
+      },
+      {
+        "intent": "pu_contact",
+        "text": "mail id"
+      },
+      {
+        "intent": "pu_contact",
+        "text": "e-mail address"
+      },
+      {
+        "intent": "pu_contact",
+        "text": "mail address"
+      },
+      {
+        "intent": "pu_contact",
+        "text": "e-mail"
+      },
+      {
+        "intent": "pu_degreevalid",
+        "text": "degree valid"
+      },
+      {
+        "intent": "pu_details",
+        "text": "about university"
+      },
+      {
+        "intent": "pu_details",
+        "text": "about poornima"
+      },
+      {
+        "intent": "pu_details",
+        "text": "details of poornima university"
+      },
+      {
+        "intent": "pu_distancelearning",
+        "text": "distance learning"
+      },
+      {
+        "intent": "pu_distancelearning",
+        "text": "distance education"
+      },
+      {
+        "intent": "pu_eligibility",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "BCA",
+            "entity": "course"
+          }
+        ],
+        "text": "Eligibility to take addminsion bca"
+      },
+      {
+        "intent": "pu_eligibility",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "B.tech",
+            "entity": "course"
+          }
+        ],
+        "text": "Eligibility to take addminsion btech"
+      },
+      {
+        "intent": "pu_eligibility",
+        "text": "Eligibility to take addminsion"
+      },
+      {
+        "intent": "pu_eligibility",
+        "text": "eligibility criteria"
+      },
+      {
+        "intent": "pu_eligibility",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "BBA",
+            "entity": "course"
+          }
+        ],
+        "text": "eligibility in bba"
+      },
+      {
+        "intent": "pu_eligibility",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "MSc",
+            "entity": "course"
+          }
+        ],
+        "text": "eligibility in msc"
+      },
+      {
+        "intent": "pu_eligibility",
+        "text": "eligibility in btech(course)"
+      },
+      {
+        "intent": "pu_eligibility",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "MBA",
+            "entity": "course"
+          }
+        ],
+        "text": "eligibility in poornima for mba"
+      },
+      {
+        "intent": "pu_eligibility",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "M.tech",
+            "entity": "course"
+          }
+        ],
+        "text": "eligibility in poornima for mtech"
+      },
+      {
+        "intent": "pu_eligibility",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "BSc",
+            "entity": "course"
+          }
+        ],
+        "text": "and for bsc"
+      },
+      {
+        "intent": "pu_eligibility",
+        "text": "eligibility"
+      },
+      {
+        "intent": "pu_eligibility",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Ph.D",
+            "entity": "course"
+          }
+        ],
+        "text": "Ph.D"
+      },
+      {
+        "intent": "pu_eligibility",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "B.Com",
+            "entity": "course"
+          }
+        ],
+        "text": "eligibility in B.Com"
+      },
+      {
+        "intent": "pu_established",
+        "text": "was estabilished"
+      },
+      {
+        "intent": "pu_established",
+        "text": "established"
+      },
+      {
+        "intent": "pu_established",
+        "text": "year of establishment"
+      },
+      {
+        "intent": "pu_established",
+        "text": "when poornima established"
+      },
+      {
+        "intent": "pu_established",
+        "text": "poornima founded"
+      },
+      {
+        "intent": "pu_established",
+        "text": "establishment"
+      },
+      {
+        "intent": "pu_fee",
+        "text": "fee structure"
+      },
+      {
+        "intent": "pu_fee",
+        "text": "fee detalis"
+      },
+      {
+        "intent": "pu_fee",
+        "text": "fees for btech coursce"
+      },
+      {
+        "intent": "pu_fee",
+        "text": "fees details"
+      },
+      {
+        "intent": "pu_globalt_tie_ups",
+        "text": "university global tie ups"
+      },
+      {
+        "intent": "pu_globalt_tie_ups",
+        "text": "global tie ups"
+      },
+      {
+        "intent": "pu_location",
+        "text": "where is university located ?"
+      },
+      {
+        "intent": "pu_location",
+        "text": "location of poornima university"
+      },
+      {
+        "intent": "pu_location",
+        "text": "location"
+      },
+      {
+        "intent": "pu_location",
+        "text": "Address of"
+      },
+      {
+        "intent": "pu_location",
+        "text": "address"
+      },
+      {
+        "intent": "pu_location",
+        "text": "which city"
+      },
+      {
+        "intent": "pu_location",
+        "text": "which place"
+      },
+      {
+        "intent": "pu_location",
+        "text": "place"
+      },
+      {
+        "intent": "pu_location",
+        "text": "address of poornima"
+      },
+      {
+        "intent": "pu_placement",
+        "text": "placement in"
+      },
+      {
+        "intent": "pu_placement",
+        "text": "university placement"
+      },
+      {
+        "intent": "pu_placement",
+        "text": "Placement"
+      },
+      {
+        "intent": "pu_placement",
+        "text": "highest package"
+      },
+      {
+        "intent": "pu_placement",
+        "text": "pu placement details"
+      },
+      {
+        "intent": "pu_placement",
+        "text": "placement activity"
+      },
+      {
+        "intent": "pu_public_transport",
+        "text": "public transportation"
+      },
+      {
+        "intent": "pu_public_transport",
+        "text": "public transport"
+      },
+      {
+        "intent": "pu_public_transport",
+        "text": "accessible by pubilc transport"
+      },
+      {
+        "intent": "pu_streams_in_course",
+        "entities": [
+          {
+            "start": 32,
+            "end": 34,
+            "value": "BA",
+            "entity": "course"
+          }
+        ],
+        "text": "different streams available for BA"
+      },
+      {
+        "intent": "pu_streams_in_course",
+        "text": "streams available"
+      },
+      {
+        "intent": "pu_streams_in_course",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "B.arch",
+            "entity": "course"
+          }
+        ],
+        "text": "streams in B.arch"
+      },
+      {
+        "intent": "pu_streams_in_course",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "B.Des",
+            "entity": "course"
+          }
+        ],
+        "text": "diff streams available in bDes"
+      },
+      {
+        "intent": "pu_streams_in_course",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "M.Des",
+            "entity": "course"
+          }
+        ],
+        "text": "different stream in MDes"
+      },
+      {
+        "intent": "pu_uniform",
+        "text": "uniform"
+      },
+      {
+        "intent": "pu_uniform",
+        "text": "dress"
+      },
+      {
+        "intent": "pu_uniform",
+        "text": "uniform for student"
+      },
+      {
+        "intent": "pu_uniform",
+        "text": "uniform compulsory?"
+      },
+      {
+        "intent": "pu_uniform",
+        "text": "compulsory uniform"
+      },
+      {
+        "intent": "pu_uniform",
+        "text": "pu uniform"
+      },
+      {
+        "intent": "pu_uniform",
+        "text": "necessary to wear uniform"
+      },
+      {
+        "intent": "user_agree",
+        "text": "yes"
+      },
+      {
+        "intent": "user_agree",
+        "text": "indeed"
+      },
+      {
+        "intent": "user_agree",
+        "text": "of course"
+      },
+      {
+        "intent": "user_agree",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "user_agree",
+        "text": "correct"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "course",
+        "elements": [
+          "B.tech",
+          "M.tech",
+          "BBA",
+          "MBA",
+          "BCA",
+          "MSc",
+          "BSc",
+          "BA",
+          "B.Des",
+          "M.Des",
+          "B.Com",
+          "B.arch",
+          "Ph.D"
+        ]
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "BCA",
+        "synonyms": [
+          "bca",
+          "Bca",
+          "Bachelor in Computer Application"
+        ]
+      },
+      {
+        "value": "B.tech",
+        "synonyms": [
+          "btech",
+          "Btech",
+          "b.tech",
+          "Bachelor of Technology",
+          "B.E",
+          "Bachelor of Engineering"
+        ]
+      },
+      {
+        "value": "BBA",
+        "synonyms": [
+          "bba",
+          "Bachelor of Business Administration"
+        ]
+      },
+      {
+        "value": "MSc",
+        "synonyms": [
+          "msc",
+          "master of science"
+        ]
+      },
+      {
+        "value": "MBA",
+        "synonyms": [
+          "mba",
+          "Master of Business Administration"
+        ]
+      },
+      {
+        "value": "M.tech",
+        "synonyms": [
+          "mtech",
+          "m.tech",
+          "master in technology"
+        ]
+      },
+      {
+        "value": "BSc",
+        "synonyms": [
+          "bsc",
+          "Bachelor of Science"
+        ]
+      },
+      {
+        "value": "B.Des",
+        "synonyms": [
+          "bDes",
+          "Bachelor of Design",
+          "b.des"
+        ]
+      },
+      {
+        "value": "M.Des",
+        "synonyms": [
+          "MDes",
+          "Master of Design"
+        ]
+      },
+      {
+        "value": "B.Com",
+        "synonyms": [
+          "Bachelor of Commerce",
+          "bcom"
+        ]
+      },
+      {
+        "value": "B.arch",
+        "synonyms": [
+          "Bachelor of Architecture"
+        ]
+      },
+      {
+        "value": "pu",
+        "synonyms": [
+          "poornima university"
+        ]
+      }
+    ]
+  }
+}

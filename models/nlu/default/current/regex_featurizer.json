@@ -1,0 +1,6 @@
+[
+    {
+        "name": "course",
+        "pattern": "(?i)(\\bB\\.tech\\b|\\bM\\.tech\\b|\\bBBA\\b|\\bMBA\\b|\\bBCA\\b|\\bMSc\\b|\\bBSc\\b|\\bBA\\b|\\bB\\.Des\\b|\\bM\\.Des\\b|\\bB\\.Com\\b|\\bB\\.arch\\b|\\bPh\\.D\\b)"
+    }
+]

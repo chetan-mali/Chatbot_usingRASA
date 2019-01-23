@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/minicoder/Desktop/BOT_v1.0/models/nlu/default/current/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/minicoder/Desktop/BOT_v1.0/models/nlu/default/current/intent_classifier_tensorflow_embedding.ckpt"

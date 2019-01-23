@@ -1,39 +1,60 @@
 %YAML 1.1
 ---
 actions:
-- utter_wellcome
-- utter_did_that_help
-- utter_pu_eligibility
-- utter_pu_UGCapproval
-- utter_pu_details
-- utter_ask
-- utter_cheer_up
+- utter_pu_established
 - utter_unclear
-- utter_pu_contact
-- action_eligibility
-- utter_agree
-- utter_greet
+- utter_pu_globalt_tie_ups
 - utter_goodbye
-- utter_pu_addmissiondocs
-- utter_bot
-- utter_ask_course
+- utter_pu_placement
+- utter_pu_anti_ragging
+- utter_pu_contact
 - utter_pu_location
+- utter_pu_degreevalid
+- utter_pu_fee
+- action_eligibility
+- utter_pu_addmissiondocs
+- action_streams
+- utter_did_that_help
+- utter_pu_uniform
+- utter_agree
+- utter_cheer_up
+- utter_ask
+- utter_bot
+- utter_pu_Phd_parttime
+- utter_pu_UGCapproval
+- utter_pu_public_transport
+- utter_pu_distancelearning
+- utter_pu_details
+- utter_greet
+- utter_wellcome
+- utter_ask_course
 entities:
 - course
 intents:
 - pu_eligibility
+- pu_uniform
+- pu_degreevalid
+- pu_distancelearning
+- pu_public_transport
 - goodbye
-- mood_great
+- pu_Phd_parttime
+- pu_placement
+- pu_globalt_tie_ups
+- pu_streams_in_course
+- pu_fee
+- pu_anti_ragging
+- pu_established
+- pu_location
 - greet
+- pu_UGCapproval
+- pu_contact
+- pu_details
 - ask_bot
+- mood_great
 - mood_unhappy
 - user_agree
 - mood_deny
-- pu_details
-- pu_location
-- pu_UGCapproval
 - pu_addmissiondocs
-- pu_contact
 slots:
   course:
     type: text
@@ -57,30 +78,60 @@ templates:
   utter_greet:
   - text: Hey !!
   - text: hello!
+  utter_pu_Phd_parttime:
+  - text: "We offer both types of Ph.D (part time and full time) for more information\
+      \ please go through the below link: \nhttp://www.poornima.edu.in/doctor-of-philosophy-phd/"
   utter_pu_UGCapproval:
   - text: Poornima university is recognized Under section 22(1) of UGC Act 1956).
   utter_pu_addmissiondocs:
   - text: "Documents Required:\n  10th marksheet\n  12th marksheet\n  Transfer certificate\n\
       \  Migration Certificate\n  Domicile Certificate\n  Six Photograph\n"
+  utter_pu_anti_ragging:
+  - text: Our campus is ragging free
   utter_pu_contact:
   - text: "Website :www.Poornima.edu.in \nMail-ID :info@poornima.edu.in \nPhone-NO:+91-8875666\
       \ 617,+91-8875 666 618"
+  utter_pu_degreevalid:
+  - text: Yes degree is valid.!!!
   utter_pu_details:
-  - text: "Poornima University was established in Jaipur in year 2012.  Poornima University\
-      \ Provides various courses:B.tech,M.Tech,MBA,BBA,BCA,B.Com,BArch,Ph.D .\n"
+  - text: "Poornima University (PU) was established in Jaipur in year 2012, is recognized\
+      \ by UGC. Smart classrooms empowered by Digital Class Pro ICT Solution-Pearson\
+      \ with modern laboratories, workshops and design studious as per the industry\
+      \ standards. Diversity of Students: 10,000+ Students with nearly 1/3rd of them\
+      \ women. Poornima University Provides various courses:B.tech,M.Tech,MBA,BBA,BCA,B.Com,BArch,Ph.D\
+      \ .\n"
+  utter_pu_distancelearning:
+  - text: We don’t provide distance learning education.
+  utter_pu_established:
+  - text: In year 2012
+  utter_pu_fee:
+  - image: "Image URL"
+    text: 'Go through below image:'
+  utter_pu_globalt_tie_ups:
+  - text: "University of north rumbria \nHangyang University \nAIT (Korea) "
   utter_pu_location:
-  - text: "Poornima University is located at :Plot No. IS-2027 to 2031, Ramchandrapura,\
-      \    Sitapura Extension, Jaipur.  Sitapura is better known as the educational\
-      \ hub    of Jaipur with large no of education institutions and students.  It\
-      \ is within    20 minutes drive from the heart of Jaipur city.   \n"
+  - text: "Poornima University is located at :Plot No. IS-2027 to 2031, Ramchandrapura,Sitapura\
+      \ Extension, Jaipur.\nhttps://www.google.com/maps/place/Poornima+University/@26.7796509,75.874859,17z/data=!3m1!4b1!4m5!3m4!1s0x396dc88d255e5b55:0xd35c400e65285ad0!8m2!3d26.7796461!4d75.8770531"
+  utter_pu_placement:
+  - text: "Poornima University has been a consistent topper for several years in the\
+      \ list of campus  placement records among private institutions in Rajasthan.\
+      \ \n\nB.Tech. – Highest Package is 61.9/- lakh Per Annum \nMBA – Highest package\
+      \ is 4.56/- lakh Per Annum \nBBA – Highest package is 4.45/- lakh Per Annum\
+      \ \nBCA – Highest package is 3.56/- lakh Per Annum \nB.COM – Highest package\
+      \ is 2.0/- lakh Per Annum \n\nPlacement Activities:\n -Full fledged placement\
+      \ cell\n -Campus Recruitment Training\n -Centralized Placement\n  -MOU with Career\
+      \ Launcher India Limited\n -Poornima Employability Enhancement   Mission(PEEM)Classes\n\
+      \  -Special Classes For Skill Development\n -Industries and Training Visit\n \
+      \ \n\nFor More information please go through the link: http://www.poornima.edu.in/placement-in-poornima/"
+  utter_pu_public_transport:
+  - text: public transport is frequently available from all corners of Jaipur
+  utter_pu_uniform:
+  - text: 'uniform is necessary but you can wear casuals on Wednesday and Thursday
+      only. '
   utter_unclear:
   - text: I am not sure what you are aiming for.
-  - text: I am not very sure what you said.
   - text: "Maybe I didn't understand you properly. \nCould you please reword your\
       \ question or type your complete query?"
-  - text: I didn't get what you said. Can you please rephrase the query?
   - text: A little lost. Apologies. Could you rephrase?
-  - text: I've dropped the ball. Could you rephrase?
-  - text: Oops. Signal fuzzy. Could you rephrase?
   utter_wellcome:
-  - text: "hey!!! \nWellcome to Poornima University\n How can i help You ?"
+  - text: "hey!!! \nWelcome to Poornima University\nHow can i help You ?"

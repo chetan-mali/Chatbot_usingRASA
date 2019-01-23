@@ -5,10 +5,16 @@
         "course"
       ]
     },
+    "utter_wellcome": {
+      "slots": []
+    },
+    "utter_pu_addmissiondocs": {
+      "slots": []
+    },
     "utter_goodbye": {
       "slots": []
     },
-    "utter_cheer_up": {
+    "utter_pu_UGCapproval": {
       "slots": []
     },
     "action_eligibility": {
@@ -17,29 +23,64 @@
     "utter_pu_contact": {
       "slots": []
     },
-    "utter_pu_addmissiondocs": {
+    "action_streams": {
+      "slots": []
+    },
+    "utter_bot": {
+      "slots": []
+    },
+    "utter_pu_established": {
+      "slots": []
+    },
+    "utter_pu_globalt_tie_ups": {
+      "slots": []
+    },
+    "utter_pu_placement": {
+      "slots": []
+    },
+    "utter_pu_fee": {
+      "slots": []
+    },
+    "utter_pu_details": {
       "slots": []
     },
     "utter_pu_location": {
       "slots": []
     },
-    "utter_pu_UGCapproval": {
+    "utter_pu_degreevalid": {
       "slots": []
     },
-    "utter_pu_details": {
+    "utter_pu_Phd_parttime": {
+      "slots": []
+    },
+    "utter_pu_anti_ragging": {
+      "slots": []
+    },
+    "utter_pu_uniform": {
+      "slots": []
+    },
+    "utter_cheer_up": {
+      "slots": []
+    },
+    "utter_unclear": {
+      "slots": []
+    },
+    "utter_pu_distancelearning": {
       "slots": []
     }
   },
-  "rasa_core": "0.12.3",
+  "rasa_core": "0.12.4",
   "python": "3.6.7",
   "max_histories": [
+    3,
     5,
-    5
+    null
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190106-213049"
+  "trained_at": "20190118-150720"
 }
